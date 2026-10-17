@@ -72,16 +72,17 @@ $$H_0 = \text{MLP}\left( |\mathcal{B}_1| H_1^{(L)} \right)$$
 
 ---
 
-## 3. German University Curriculum Alignment
+## 3. Core Theoretical Foundations & Research Context
 
-This project directly aligns with advanced research areas taught at premier German research universities:
+This research synthesizes advanced principles across algebraic topology, geometric deep learning, and systemic network risk:
 
-| German University Target Area | Core Scientific Competencies Demonstrated |
+| Research Domain | Theoretical Principles Applied |
 | :--- | :--- |
-| **TU Munich (TUM) & LMU Munich**<br>*(Munich Center for Machine Learning - MCML)* | Geometric Deep Learning, higher-order message passing, topological graph neural networks. |
-| **Heidelberg University**<br>*(Interdisciplinary Center for Scientific Computing - IWR)* | Algebraic topology, Persistent Homology, Hodge Laplacians on cell complexes. |
-| **TU Berlin**<br>*(Berlin Institute for the Foundations of Learning and Data - BIFOLD)* | Non-Euclidean data representations, spectral graph theory, systemic network risk. |
-| **Paderborn University**<br>*(Heinz Nixdorf Institute & Computer Science)* | Algorithm engineering, simplicial complex indexing, graph algorithms, and PyTest validation. |
+| **Algebraic Topology** | Abstract simplicial complexes, boundary operators ($\partial \circ \partial = \emptyset$), Betti numbers ($\beta_0, \beta_1$). |
+| **Discrete Hodge Theory** | Higher-order Hodge Laplacians ($\Delta_k$), harmonic forms, discrete Hodge-Helmholtz decomposition. |
+| **Geometric Deep Learning** | Simplicial neural networks (SCNNs), higher-order message passing, expressive capacity beyond 1-WL tests. |
+| **Spectral Graph Theory** | Hodge spectrum analysis, solenoidal cycle detection, and diffusion on cellular spaces. |
+| **Systemic Risk Modeling** | Eisenberg-Noe clearing vectors, non-linear cascade propagation, multi-lateral syndicate risk sharing. |
 
 ---
 
@@ -150,6 +151,15 @@ Interactive Swagger API documentation: [http://localhost:8001/docs](http://local
 
 ---
 
-## 7. Author & Contact
-* **Applicant:** Durgesh Kanjariya
-* **Target:** Master of Science in Data Science / Computer Science in Germany
+## 7. License & Citation
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+```bibtex
+@article{topological_financial_contagion_2026,
+  title={Higher-Order Topological Neural Networks on Simplicial Complexes for Systemic Financial Contagion Modeling},
+  author={Topological Machine Learning Group},
+  year={2026},
+  journal={Open Source Topological Machine Learning Archive}
+}
+```

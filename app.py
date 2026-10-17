@@ -100,7 +100,7 @@ def root():
             "betti_1_topological_holes": betti_1
         },
         "documentation": "/docs",
-        "author": "Durgesh Kanjariya"
+        "author": "Topological Machine Learning Group"
     }
 
 
