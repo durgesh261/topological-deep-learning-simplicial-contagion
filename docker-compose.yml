@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  topological-contagion-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: topological_simplicial_contagion
+    ports:
+      - "8001:8001"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
